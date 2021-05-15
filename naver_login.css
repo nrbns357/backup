@@ -1,4 +1,26 @@
 body{
-    background-color: darkgrey;
-    
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+    padding-top: 100px;
+    background:radial-gradient(skyblue,hotpink);
+
+}
+
+#naver
+{
+    font-size: 60px;
+}
+input{
+    width: 200px;
+    height: 40px;
+    border: 2px solid pink;
+}
+   
+
+.n:hover{
+    color: palevioletred;
+    text-shadow:4px 4px 10px red;
 }
