@@ -8,17 +8,23 @@
     <title>네이버 로그인창</title>
   
     <style>
-        a[ href ^="https:"]{text-decoration: none;}
-        .n{color: coral;}
-       
+        a[ href ^="https:"]{text-decoration: none; cursor: pointer;}
+       .Area{height: 48px; width: 460px; margin-bottom: 8px;}
     </style>
 </head>
 <body> 
-    <div id="naver">
-    <a href="https://www.naver.com/" class="n">NAVER</a><br>
+    <div style="width: 460px;">
+        <div id="header" >
+            <h1>
+                <a href="https://www.naver.com/">
+                <span class="n">NAVER</span>
+                </a>
+            </h1>
+        </div>
+        
+        <input class="Area" type="email"  placeholder="아이디">
+        <input class="Area" type="password" placeholder="비밀번호">
+        <input class="Area" id="login"  type="button" value="로그인" >
     </div>
-    <input type="email"  placeholder="아이디">
-    <input type="password" placeholder="비밀번호">
-    <input type="button" value="로그인" >
 </body>
 </html>

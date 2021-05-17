@@ -1,26 +1,36 @@
 body{
-    background-position: center;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: snow;
-    padding-top: 100px;
-    background:radial-gradient(skyblue,hotpink);
-
+    height: 450px;
+    margin: 0px;
+    background-color: #f6f5f7;
 }
-
-#naver
-{
+#header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.n
+{   
+    padding-top: 106px;
+    padding-bottom: 56px;
     font-size: 60px;
+    color: #03c75a;    
+    font-weight: bold;
 }
-input{
-    width: 200px;
-    height: 40px;
-    border: 2px solid pink;
-}
+.Area{
+     background-color:  #ffffff;
+    border: none;
+    font-size: 14px;
+    padding: 8px 0 6px;
+    cursor: pointer;
    
-
-.n:hover{
-    color: palevioletred;
-    text-shadow:4px 4px 10px red;
+}
+#login{
+    background-color: #03c75a;
+    color: ivory;
 }
