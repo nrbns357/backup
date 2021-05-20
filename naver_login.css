@@ -24,13 +24,18 @@ body{
 }
 .Area{
      background-color:  #ffffff;
-    border: none;
+    border: 1px solid rgb(207, 207, 207);
     font-size: 14px;
-    padding: 8px 0 6px;
+    padding-left: 10px;
     cursor: pointer;
-   
 }
 #login{
     background-color: #03c75a;
-    color: ivory;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.Area:focus{
+    outline: none;
+    border: 1px solid #03c75a;
 }
