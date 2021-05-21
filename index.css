@@ -10,16 +10,20 @@ body{
 .ar{
     width: 315px;
     height: 48px;
-    background-color: #03c75a;
+    background-color: #19ce60;
     color: white;
     border: 0px;
     padding: 0px 0px;
     margin-top: 11px ;
+    border: 1px solid #15c654;
 }    
 
 #gks{
     width: 318px;
     height: 126px;
-    background-color: rgb(224, 223, 223);
+    background-color: #f7f9fa;
     padding: 12px 16px 12px 16px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dae1e6;
 }
