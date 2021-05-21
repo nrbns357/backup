@@ -26,4 +26,5 @@ body{
     display: flex;
     align-items: center;
     border: 1px solid #dae1e6;
+    direction: rtl;
 }

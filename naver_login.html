@@ -10,13 +10,8 @@
     <style>
         a[ href ^="https:"]{text-decoration: none; }
        .Area{height: 48px; width: 446px; margin-bottom: 8px ;}
+       #kakao{text-decoration: none;}
     </style>
-
-    <script>
-        function login(){
-            alert('로그인에 실패했습니다.')
-        }
-    </script>
 </head>
 <body> 
     <div style="width: 460px;">
@@ -28,9 +23,14 @@
             </h1>
         </div>
     <div>
-        <input class="Area" type="email"  placeholder="아이디">
-        <input class="Area"  type="password" placeholder="비밀번호">
-        <input id="login" onclick="login()" style="width: 100%; height: 56px;" type="button" value="로그인" >
+        <form name="login_check" action="./login_check.php" method="POST" >
+            <input class="Area" name="id" type="text"  placeholder="아이디">
+            <input class="Area" name="password" type="password" placeholder="비밀번호">
+            <input id="login" style="width: 100%; height: 56px;" type="submit" value="로그인" >
+        </form>
+    </div>
+    <div>
+        <a href="file:///C:/Users/user/Desktop/%EC%9B%B9/kakaotalk.html" id="kakao">카카오톡 로그인</a>
     </div>
     </div>
 </body>
