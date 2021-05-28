@@ -19,7 +19,7 @@ body{
     background-color: white;
     border: 0px;
     margin-top: 5px ;
-    
+     
 }
 .login{
     width: 300px;
@@ -28,4 +28,4 @@ body{
     display: flex;
     justify-content: center;
 
-}
+} 

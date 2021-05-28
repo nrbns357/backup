@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="naver_login.css">
-    <title>네이버 로그인창</title>
+    <link rel="stylesheet" href="./naver_login.css">
+    <title>네이버: 로그인</title>
   
     <style>
-        a[ href ^="https:"]{text-decoration: none; }
        .Area{height: 48px; width: 446px; margin-bottom: 8px ;}
-       #kakao{text-decoration: none;}
+       a{text-decoration: none;}
     </style>
 </head>
 <body> 
@@ -22,16 +21,17 @@
                 </a>
             </h1>
         </div>
-    <div>
-        <form name="login_check" action="./login_check.php" method="POST" >
+    <div >
+        <form name="naver_login_check" action="./naver_login_check.php" method="POST" >
             <input class="Area" name="id" type="text"  placeholder="아이디">
             <input class="Area" name="password" type="password" placeholder="비밀번호">
             <input id="login" style="width: 100%; height: 56px;" type="submit" value="로그인" >
         </form>
+        <div id="di">
+            <a href="./kakao_login.html" id="kakao">카카오톡 가기</a>
+        </div>
     </div>
-    <div>
-        <a href="file:///C:/Users/user/Desktop/%EC%9B%B9/kakaotalk.html" id="kakao">카카오톡 로그인</a>
-    </div>
+ 
     </div>
 </body>
 </html>

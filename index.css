@@ -26,5 +26,9 @@ body{
     display: flex;
     align-items: center;
     border: 1px solid #dae1e6;
-    direction: rtl;
+}
+#al{
+    width: 330px;
+    height: 170px;
+
 }

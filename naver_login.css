@@ -18,7 +18,7 @@ body{
 {   
     padding-top: 106px;
     padding-bottom: 56px;
-    font-size: 60px;
+    font-size: 60px; 
     color: #03c75a;    
     font-weight: bold;
 }
@@ -40,10 +40,10 @@ body{
     border: 1px solid #03c75a;
 }
 #kakao{
-    width: 300px;
+    width: 230px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: ghostwhite;
+    background-color: #FFEB33;
 }
