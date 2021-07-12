@@ -17,7 +17,7 @@
           $succes= $row;
       }
      }
-
+ 
     if($succes)
      { 
          echo "<script>location.href='./chatting.php'</script>";

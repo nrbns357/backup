@@ -14,16 +14,23 @@ body{
     background-color: white;
     border: 1px solid rgb(223, 255, 250);    
 }
-#button{
-    width: 50px;
-    height: 45px;
-    background-color: #FFEB33;
-    border: 1px solid #ffe81d;
-    
-}
+
 #di{
     width: auto;
     height: auto;
     position: fixed;
     bottom: 140px;
+}
+#exit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ex{
+    position:absolute;
+    top: 30px;
+    left: 30px;
+    width: 300px;
+    height: 30px;
+border: 1px solid black;    
 }

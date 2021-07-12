@@ -1,0 +1,18 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+#main{
+    background-color: #f7f9fa;
+    width: 100px;
+    height: 100px;
+    padding: 17px 17px 9px;
+}
+#member{
+    
+}

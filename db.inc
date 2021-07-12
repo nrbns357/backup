@@ -6,4 +6,4 @@
 
 	mysqli_select_db($connect, "nrbns") or die("mysqli_select_db Error!!! 사용 Database 이름을 확인하세요.");
 	mysqli_query($connect,"set NAMES utf8"); 
-?>
+?> 
