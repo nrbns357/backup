@@ -24,7 +24,7 @@ function deleteToDo(event){
 function saveToDos(){
     localStorage.setItem(TODOS_LS, JSON.stringify(toDos)); //JSON.stringify은 object를 string으로 바꿔준다.
 }
-
+ 
 function paintToDo(text){
     const li = document.createElement("li");
     const delBtn = document.createElement("button");

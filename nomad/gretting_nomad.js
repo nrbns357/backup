@@ -19,10 +19,9 @@ function askForname(){
 function paintgreeting(text){
     form.classList.remove(SHOWING_CN); // form 태그에 클래스 리스트로 이름{SHOWING_CN} 을 삭제(remove)한다 그러므로 css기능은 사라진다.
     greeting.classList.add(SHOWING_CN); // form 태그에 클래스 리스트로 이름{SHOWING_CN}을 새로 추가(add)해서  css - display : block 기능을 넣는다.
-    
     greeting.innerText =`Hello ${text}`; // text 받은 값을 화면에 보여준다.
 }
-
+ 
 function loadName(){
     const currentUser = localStorage.getItem(USER_LS); // currentUser라는 변수 안에 콘솔창에서 가져온  USER_LS이란 변수 안에 null이나 다른 값을 변수 currentUser에 저장을 해준다.
     if (currentUser === null) { // 콘솔창에서 불러온 currentUser 안에 값이 null이 들었다면 askForname 함수로 이동

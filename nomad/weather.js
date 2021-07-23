@@ -14,7 +14,7 @@ function handleGeoSucces(position){
     };
     saveCoords(coordsObj);
      
-}
+} 
 
 function handleGeoError(){
     console.log("cant access geo location");
