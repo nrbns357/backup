@@ -1,2 +1,2 @@
-# html , #css , #JavaScript , #php , #DB  
+# html  # css , #JavaScript , #php , #DB  
 # 이곳은 제가 만들고 싶었던 여러가지 사이트를 만든곳입니다. 아직은 정리가 되어있지않습니다 차근차근 정리를 해 나갈것 입니다. 
