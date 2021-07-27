@@ -14,7 +14,7 @@ function deleteToDo(event){
     const btn = event.target;
     const li = btn.parentNode;
     toDoList.removeChild(li);
-    const cleanToDos = toDos.filter(function(toDo){
+    const cleanToDos = toDos.filter(function (toDo) { // filter는 반복문 같은 개념인데 예를들어 2개의 Element가 있다고 한다면 모든 Element가 전달값으로 인해 전될이 된다
         return toDo.id !== parseInt(li.id); 
     });
     toDos = cleanToDos;
@@ -34,6 +34,7 @@ function paintToDo(text){
     delBtn.style.border = "0";
     delBtn.style.fontSize = "20px";
     li.style.fontSize = "20px";
+    li.style.marginBottom ="5px";
     delBtn.addEventListener("click", deleteToDo);
     const span = document.createElement("span");
     span.innerText = text;
