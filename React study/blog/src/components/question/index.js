@@ -23,11 +23,11 @@ export default class Question extends Component{
             </div>
 
             <div className="tagediv">
-                <input placeholder="전공 태그 (쉼표로 구분해주세요)" className="tage_input" />
+                <form>
+                <input placeholder="전공 태그 (쉼표로 구분해주세요)" type="text" className="tage_input" />
+                <input className="publishing" type="submit" value="게시"/>
+                </form>
             </div>
-                    <div>
-                        <input className="publishing" type="button" value="게시"></input>
-                    </div>
 
         </div>
             </div>)

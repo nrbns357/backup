@@ -13,6 +13,7 @@ body{
   width: 100vw;
   height: 6rem;
   background-color: #402597;
+  box-shadow: 0.3rem 0.1rem 0.5rem 0.3rem gray;
 }
 
 .header_Title{
@@ -37,6 +38,11 @@ body{
   margin: 0;
  outline: none;
  padding-left: 1rem;
+ border:0.1rem solid rgba(128, 128, 128, 0.699);
+}
+
+.header_input:focus{
+  border: solid rgba(114, 35, 179, 0.589);
 }
 
 .input_Search{
